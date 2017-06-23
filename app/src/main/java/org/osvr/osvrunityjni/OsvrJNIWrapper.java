@@ -6,7 +6,7 @@
  <http://sensics.com/osvr>
  */
 
-// Copyright 2015 Sensics, Inc.
+// Copyright 2017 Sensics, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -77,7 +77,6 @@ public class OsvrJNIWrapper {
             System.loadLibrary("com_osvr_Multiserver");
             System.loadLibrary("org_osvr_filter_deadreckoningrotation");
             System.loadLibrary("org_osvr_filter_oneeuro");
-            // System.loadLibrary("native-activity");
             librariesLoaded = true;
 
         }
